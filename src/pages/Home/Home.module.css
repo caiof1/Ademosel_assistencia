@@ -1,0 +1,324 @@
+.container_betoneira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_betoneira .text_betoneira {
+    width: 50%;
+    padding: 5px;
+}
+
+.container_betoneira .text_betoneira h1 {
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 40px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.container_betoneira .text_betoneira h1 span {
+    font-weight: bold;
+    color: #467BC2;
+}
+
+.container_betoneira .text_betoneira p {
+    color: #666666;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container_betoneira .text_betoneira button {
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #FA7436;
+    color: #FA7436;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.container_betoneira .text_betoneira button:hover {
+    background: #FA7436;
+    color: #fff;
+    transition: .2s linear;
+}
+
+.container_betoneira .container_image_betoneira {
+    width: 50%;
+    text-align: center;
+}
+
+.container_garantia {
+    width: 100%;
+    max-width: 800px;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+.container_garantia > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_garantia span span {
+    width: 160px;
+}
+
+.container_orcamento {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_orcamento > h3,
+.container_orcamento > p {
+    text-align: center;
+}
+
+.container_orcamento .container_whats_assistencia {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.container_orcamento .container_whats_assistencia div {
+    width: 250px;
+    min-height: 200px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.container_orcamento .container_whats_assistencia div i {
+    font-size: 50px;
+    color: #467BC2;
+    margin-bottom: 5px;
+}
+
+.container_orcamento .container_whats_assistencia div p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container_servicos {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_servicos > h3,
+.container_servicos > p {
+    text-align: center;
+}
+
+.container_servicos .container_nossos_servicos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.container_servicos .container_nossos_servicos div {
+    width: 250px;
+    min-height: 200px;
+    background-color: #467BC2;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.container_servicos .container_nossos_servicos div h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.container_servicos .container_nossos_servicos div p {
+    color: #fff;
+}
+
+.container_consertamos {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_consertamos > h3,
+.container_consertamos > p {
+    text-align: center;
+}
+
+.container_consertamos .container_oque_consertamos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.container_consertamos .container_oque_consertamos div {
+    width: 250px;
+    min-height: 200px;
+    background-color: #467BC2;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.container_consertamos .container_oque_consertamos div h4 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.container_consertamos .container_oque_consertamos div img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container_diferencial {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_diferencial > h3,
+.container_diferencial > p {
+    text-align: center;
+}
+
+.container_diferencial .container_quais_diferencial {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.container_diferencial .container_quais_diferencial div {
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.container_diferencial .container_quais_diferencial div h5 {
+    text-align: center;
+    color: #467BC2;
+    font-size: 22px;
+}
+
+.container_diferencial .container_quais_diferencial div p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.container_local {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_local > h3,
+.container_local > p {
+    text-align: center;
+}
+
+.container_local .container_qual_local {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.container_local .container_qual_local iframe {
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container_betoneira {
+        flex-direction: column;
+    }
+
+    .container_betoneira .text_betoneira {
+        width: 100%;
+    }
+
+    .container_betoneira .text_betoneira h1 {
+        font-size: 38px;
+    }
+
+    .container_betoneira .container_image_betoneira {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container_betoneira .text_betoneira h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .container_betoneira .text_betoneira p {
+        font-size: 13px;
+    }
+
+    .container_betoneira .container_image_betoneira h3 {
+        font-size: 18px;
+    }
+
+    .container h3 {
+        font-size: 25px;
+    }
+
+    .container p {
+        font-size: 13px;
+    }
+
+    .container_betoneira .container_image_betoneira img {
+        width: 100%;
+    }
+
+    .container_garantia > span {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container_garantia > span span {
+        width: 100%;
+    }
+
+    .container_local .container_qual_local iframe {
+        height: 250px;
+    }
+}

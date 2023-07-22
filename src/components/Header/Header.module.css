@@ -1,0 +1,26 @@
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container_header .container_whatsapp {
+    background-color: #467BC2;
+    border-radius: 59px;
+    padding: 10px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.container_header .container_whatsapp i {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .container_header {
+        flex-direction: column;
+    }
+}
