@@ -23,7 +23,9 @@ const Home = () => {
             Especialista em manutenção de geladeiras, freezers, balcão
             frigorifico, chopeira, maquina de lavar
           </p>
-          <button>Ver serviços</button>
+          <a href="#consertamos" >
+            <button>Ver serviços</button>
+          </a>
         </div>
         <div className={styles.container_image_betoneira}>
           <h3>
@@ -106,7 +108,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className={styles.container_consertamos + " sections"}>
+      <section id="consertamos" className={styles.container_consertamos + " sections"}>
         <h3>
           O que <span>consertamos?</span>
         </h3>

@@ -1,0 +1,31 @@
+@keyframes pulo_container {
+    0% {
+        transform: translateY(0);
+    } 50% {
+        transform: translateY(-10px);
+    } 100% {
+        transform: translateY(0);
+    }
+}
+
+.container_whatsapp {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #467BC2;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_whatsapp:hover {
+    animation: pulo_container 600ms linear forwards;
+}
+
+.container_whatsapp i {
+    font-size: 36px;
+    color: #fff;
+}
